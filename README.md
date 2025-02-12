@@ -36,7 +36,7 @@ Product-focused 30% 20% 50% You might spend extra time on developing the appUI/U
 
 ● Write at least 3 to 4 sentences explaining your idea and identifying the data you’d use to solve it. 
     2. Submit a Google Doc link to the submission box. 
-  ● Remembertoenablesharing permissions to “comment.” 
-  ● Pleasedonotsubmit .pdfs, .ppts, or markdowns. 
+  ● Remember to enable sharing permissions to “comment.” 
+  ● Please do not submit .pdfs, .ppts, or markdowns. 
     3. Review your ideas and your tentative decision for your focus area with your mentor during your next call. 
     4. Post your idea (including a title and description) to your student community to receive peer feedback.
