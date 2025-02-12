@@ -19,7 +19,7 @@ In the last resource, you just learned about four areas of focus. Be aware that 
 Data Collection & Processing Models
 Prototype & Scaling Deployment/ Engineering Architecture 
 
-Step-1~5 
+Step 1-5 
 Step 6-9 
 Step 10-12 
 Data-focused 50%-60% 
