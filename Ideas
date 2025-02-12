@@ -1,0 +1,180 @@
+HUMAN ISSUES RESOLVABLE BY AI//ML
+
+1. Healthcare Disparities
+ML Model Idea:
+A diagnostic support system for underserved areas that uses images (e.g., X-rays, skin photos) through computer vision, or structured medical data to identify diseases like tuberculosis, skin cancer, or diabetes.
+
+Key Features:
+Computer vision for analyzing medical imaging.
+Prediction algorithms for chronic disease risk.
+A lightweight model deployable on low-resource devices.
+Impact:
+Provides access to healthcare diagnostics in remote or underserved communities, enabling quicker treatment and better health outcomes.
+
+If we are focusing on healthcare disparities, the following datasets could be utilized to develop an ML model:
+
+Clinical and Imaging Data
+MIMIC-IV (Medical Information Mart for Intensive Care):
+
+Publicly available dataset with detailed health records, including vital signs, lab tests, medications, and clinical notes.
+Useful for predicting diseases, outcomes, or health disparities.
+Access MIMIC-IV
+
+CheXpert Dataset:
+
+A large collection of labeled chest X-rays.
+Useful for developing diagnostic models for diseases like pneumonia, tuberculosis, or lung cancer.
+Access CheXpert
+
+Population Health Data
+CDC Behavioral Risk Factor Surveillance System (BRFSS):
+
+Health-related survey data at the population level, including access to care and chronic disease prevalence.
+Useful for identifying health disparities across regions and demographics.
+Access BRFSS
+
+U.S. Census Bureau Health Data:
+
+Socioeconomic data linked with health access and outcomes.
+Provides insight into how income, race, and geography impact healthcare.
+Access U.S. Census Data
+
+Open Health Records and Wearable Data
+PhysioNet Health Datasets:
+
+Includes wearable device data and EHRs for developing predictive health tools.
+Useful for chronic disease management in underserved areas.
+Access PhysioNet
+
+Apple/Google Fitness and Health Datasets:
+
+Aggregated, anonymized data from fitness devices for trends in physical activity, heart health, and stress.
+Collaboration with health systems for expanded use.
+
+
+2. Unrecognized Inherent Bias in Training Data*
+ML Model Idea:
+An AI system designed to detect and mitigate bias in training datasets and predictions, ensuring fair and equitable outcomes across different demographic groups.
+
+Key Features:
+
+Bias Detection and Quantification: Analyzes training data and model outputs to identify disparities using fairness metrics like demographic parity or disparate impact.
+Data Augmentation and Balancing: Enhances dataset diversity by oversampling underrepresented groups or using synthetic data generation (e.g., GANs).
+Fairness-Aware Learning: Integrates fairness constraints during model training to minimize biased predictions.
+Impact:
+Mitigating bias in AI systems promotes social equity, ensures regulatory compliance, and increases public trust in AI by delivering fairer and more inclusive outcomes.
+
+To inform and address visual training bias, you'll need datasets that provide diverse representations of people, objects, and environments to ensure inclusivity and fairness in computer vision applications. Here are some useful datasets:
+
+Diverse Face and Identity Datasets
+These datasets can help train models for facial recognition, expression analysis, or identity verification while mitigating demographic biases.
+
+FairFace
+
+Description: Balanced dataset of faces with labels for age, gender, and race. Designed specifically for fairness.
+Use Case: Reduces bias in face detection and recognition.
+Access FairFace
+
+UTKFace Dataset
+
+Description: Dataset of facial images annotated with age, gender, and ethnicity.
+Use Case: Helps analyze bias in demographic representation in facial recognition tasks.
+Access UTKFace
+
+Diversity in Faces (DiF)
+
+Description: Large dataset from IBM with detailed annotations for facial diversity, including pose, skin tone, and symmetry.
+Use Case: Useful for reducing biases in facial analysis applications.
+Access DiF
+
+*SIFT10M
+Description: SIFT10M is a subset of the SIFT1B dataset, containing 10 million 128-dimensional SIFT (Scale-Invariant Feature Transform) descriptors. These descriptors are extracted from images and are commonly used in nearest neighbor search, feature matching, and large-scale similarity search tasks.
+Use Case: Evaluating the performance and scalability of ANN search methods, as well as, clustering high-dimensional image descriptors for visual recognition.
+Access SIFT10M
+Object Recognition and Detection Datasets
+Bias in object recognition can arise from overrepresenting specific contexts or geographic regions.
+
+Open Images Dataset
+
+Description: A large dataset of annotated images with over 600 object classes.
+Use Case: Examine geographic or contextual bias in object detection (e.g., cultural variations in objects).
+Access Open Images
+
+COCO (Common Objects in Context)
+
+Description: A widely-used dataset with annotated images of objects in real-world settings. Includes segmentation and keypoint data.
+Use Case: Identify bias in environmental contexts (e.g., specific objects overrepresented in Western cultures).
+Access COCO
+
+ObjectNet
+
+Description: Dataset designed to reduce object recognition bias by including objects in unusual orientations and contexts.
+Use Case: Train models for generalizable object detection.
+Access ObjectNet
+
+*SIFT10M
+
+Description: Dataset is an algorithm that helps locate the local features in an image, commonly known as the 'keypoints' of the image.
+Use Case: used for various computer vision applications, like image matching, object detection, scene detection, etc.
+Access SIFT10M
+
+Skin Tone and Lighting Representation
+Bias in computer vision systems can arise from underrepresenting darker skin tones or poor performance under different lighting conditions.
+
+The Pilot Parliaments Benchmark (PPB)
+
+Description: Dataset for evaluating gender and skin tone bias in facial recognition models.
+Use Case: Improve model fairness for darker skin tones and gender diversity.
+Access Pilot Parliaments Benchmark (PPB)
+
+(3)FACES in the Wild (FIW)
+
+Description: Includes diverse lighting conditions and skin tones.
+Use Case: Train models to handle lighting and skin tone variability effectively.
+Access FIW
+
+3. Hunger and Food Security
+ML Model Idea:
+A crop yield prediction system that analyzes weather patterns, soil quality, and satellite imagery to optimize agricultural production and reduce food waste.
+
+Key Features:
+
+Integration of climate data with real-time field sensors.
+Predictive analytics for harvest times and storage needs.
+Insights into efficient resource use (e.g., water, fertilizers).
+
+Impact:
+Improves food availability, reduces waste, and enhances sustainability in agriculture, especially for small-scale farmers.
+
+To develop a model aimed at combating hunger and improving food security, you'll need diverse datasets that provide insights into agricultural practices, food production, distribution systems, socioeconomic factors, and nutritional needs. Here's a breakdown of useful datasets:
+Agricultural Data
+FAO (Food and Agriculture Organization) Statistics:
+
+Data on global agricultural production, crop yields, land use, and livestock.
+Use Case: Analyze crop patterns, predict yields, and optimize agricultural productivity.
+Access FAO Data
+
+USDA Crop Data:
+
+Data on crop growth, harvests, and agricultural markets in the U.S.
+Use Case: Develop crop prediction models and optimize supply chains.
+Access USDA Data
+
+EarthStat Dataset:
+
+Data on global crop production, agricultural land use, and environmental impacts.
+Use Case: Identify regions where agricultural efficiency can be improved.
+Access EarthStat
+
+Food Distribution and Waste
+(2)Global Food Loss and Waste Database (FAO):
+
+Comprehensive data on food loss and waste across supply chains.
+Use Case: Identify bottlenecks and inefficiencies in food distribution systems.
+Access FAO Food Loss Data
+
+Open Food Data:
+
+Real-time data on food availability, market prices, and distributions.
+Use Case: Predict shortages and improve food distribution to vulnerable areas.
+Access Open Food Data
