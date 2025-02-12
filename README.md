@@ -19,17 +19,17 @@ In the last resource, you just learned about four areas of focus. Be aware that 
 Data Collection & Processing Models
 Prototype & Scaling Deployment/ Engineering Architecture 
 
-Step1~5 
-Step6~9 
-Step10~12 
-Data-focused 50%~60% 
+Step-1~5 
+Step 6-9 
+Step 10-12 
+Data-focused 50%-60% 
 
 You may spend extra time on data collection, clean, and processing. And if you need to process real-time data, you will need to build ETL infrastructure. 
-20~30% 20~30% 
+20-30% 20-30% 
 Model-focused 25% 50% 
 You will try different models and make ensemble models to enhance performance. If you are developing DL models, please budget extra time. 
 25% If you are short on time, feel free to leverage existing deployment methods like Algorithmia. 
-Architecture-focused 30~40% You can shine by building automation in the data pipeline to support analysis at scale. 
+Architecture-focused 30-40% You can shine by building automation in the data pipeline to support analysis at scale. 
 20~30% 
 40% You can build automation to train/test data or design your own engineering architecture. We suggest this focus for students with a strong SW engineer background. 
 Product-focused 30% 20% 50% You might spend extra time on developing the appUI/UX and streaming data. Project Submission Steps 1. Write a description of your three capstone project ideas. Your ideas can be broad and high-level. The descriptions should address the problem and identify the data you’ll use to solve it. You do not need to talk about specific methods and techniques. 
