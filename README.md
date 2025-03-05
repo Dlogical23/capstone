@@ -270,7 +270,7 @@ URL: POST /predict/
 Description: Predict the cluster label for given input features.
 Request Body:
 
-    [1, 3, 5, 7]
+    [100, 116, 63, 101]
 
 Response:
     {
