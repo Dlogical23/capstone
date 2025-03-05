@@ -2,22 +2,22 @@
 capstone project files and research
 
 # Brainstorm Your Project Ideas For your initial project ideas, you’ll want to: 
-● Include a short blurb for each of your ideas. ○ Theblurbshould, at a high level, describe the problem and the data you’ll be using to solve it. At this point, there’s no need to talk about specific methods and techniques. 
-● Postyouridea (title and blurb) on the community and solicit feedback from both mentors and other students. Pick one idea to work on based on the feedback you get. Discuss the idea with your mentor to ensure they’re on board. Please note: The goal of a project is NOT to do something novel — it’s to demonstrate your competence as a machine learning engineer. It’s perfectly acceptable to work on a dataset that’s been worked on before and even answer a question that’s been answered before, as long as the work is your own. Examples For Inspiration Here are a few ideas to spark inspiration for your capstone project. Many of these ideas comefrom natural language processing or computer vision, since they’re two of the hottest fields in AI. Your project doesn’t need to be in one of these specializations. 
+● Include a short blurb for each of your ideas. 
+○ The blurb should, at a high level, describe the problem and the data you’ll be using to solve it. At this point, there’s no need to talk about specific methods and techniques. 
+● Post your idea (title and blurb) on the community and solicit feedback from both mentors and other students. Pick one idea to work on based on the feedback you get. Discuss the idea with your mentor to ensure they’re on board. Please note: The goal of a project is NOT to do something novel — it’s to demonstrate your competence as a machine learning engineer. It’s perfectly acceptable to work on a dataset that’s been worked on before and even answer a question that’s been answered before, as long as the work is your own. Examples For Inspiration Here are a few ideas to spark inspiration for your capstone project. Many of these ideas come from natural language processing or computer vision, since they’re two of the hottest fields in AI. Your project doesn’t need to be in one of these specializations. 
 ● Inventory tracking and compliance using object recognition: A company wants to automatically track inventory in its warehouses using a camera with an object recognition algorithm. A similar model could be used in a home application, such as a smart fridge which recognizes what’s placed in it. 
-● Languagetranslation: Also called machine translation, this technique uses AI to translate one human language to another, in text or speech. You can work between the two formats like speech-to-text transcription or text-to-speech generation. 
-● QAsystemsandchatbots: Increasingly, companies are using automated chatbots to address their customer service workloads. These bots produce human-like responses to questions and are getting better every day. ● Textsummarization: Imagine an application that can digest the daily news and produce a coherent summary tailored to a user. You can apply summarization to different domains, such as an application that can automatically produce a personalized summary for a student who’s trying to research a large amount of material.
+● Language translation: Also called machine translation, this technique uses AI to translate one human language to another, in text or speech. You can work between the two formats like speech-to-text transcription or text-to-speech generation. 
+● QAsystemsandchatbots: Increasingly, companies are using automated chatbots to address their customer service workloads. These bots produce human-like responses to questions and are getting better every day. 
+● Text summarization: Imagine an application that can digest the daily news and produce a coherent summary tailored to a user. You can apply summarization to different domains, such as an application that can automatically produce a personalized summary for a student who’s trying to research a large amount of material.
 ● Fraud/spam detection: Detect “bad” transactions or items in a dataset. This could take the form of detecting fraudulent credit card transactions, fake news on social media, spam in email, doctored images or video, or abusive behavior on Twitter. Depending on the problem, you can use a variety of techniques, ranging from “traditional” machine learning to the latest in deep learning. Former Capstone Project This is a project by one of our alumni, Siri Surab. She used the Quora Duplicate Questions dataset from Kaggle, and applied NLP techniques from both “old-school” Machine Learning as well as Deep Learning to identify duplicate questions on Quora. 
 ● Ideation 
 ● BlogPost 
-● GitHubrepository Wedon’t expect you to understand all of these techniques at the beginning of the course, but we’ve presented this here as an example of what your final project will look like. You’ll go much deeper into this specific project in a later unit on NLP. Plan For Your Project Based On Your Focus Area In total, you would spend ~120 hours on your project, including studying for some advanced topics if you choose to. 
+● GitHub repository We don’t expect you to understand all of these techniques at the beginning of the course, but we’ve presented this here as an example of what your final project will look like. You’ll go much deeper into this specific project in a later unit on NLP. Plan For Your Project Based On Your Focus Area In total, you would spend ~120 hours on your project, including studying for some advanced topics if you choose to. 
 
 In the last resource, you just learned about four areas of focus. Be aware that each of these focuses would influence how you spend time on each of the milestone steps of your capstone project. 
 1.) Think about which area that you want to focus on based on your strengths and what you want to showcase for your future employers. 
 
-
-
-KMeans Classification Model with FastAPI
+# KMeans Classification Model with FastAPI
 
 This repository contains code for training a KMeans classification model and serving it via a FastAPI-based REST API. The API allows users to send input features and receive cluster predictions.
 
@@ -50,7 +50,7 @@ Product-focused 30% 20% 50% You might spend extra time on developing the appUI/U
     3. Review your ideas and your tentative decision for your focus area with your mentor during your next call. 
     4. Post your idea (including a title and description) to your student community to receive peer feedback.
 
-    KMeans Classification Model with FastAPI
+KMeans Classification Model with FastAPI
     
 # *Disclaimer - These processes were assisted by ChatGPT, and will reflect in screen captures.
 
