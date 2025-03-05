@@ -18,12 +18,14 @@ In the last resource, you just learned about four areas of focus. Be aware that 
 
 
 KMeans Classification Model with FastAPI
+
 This repository contains code for training a KMeans classification model and serving it via a FastAPI-based REST API. The API allows users to send input features and receive cluster predictions.
 
 
 2.) Here is a potential plan for you. It contains a breakdown of suggested time allocation for each main part based on your focus, and some areas where you need to budget extra time. This is only a reference, please discuss concrete details with your mentors. Don’t feel that you need to commit to this plan. Your plan may likely change as you proceed through the course. 
 
 Data Collection & Processing Models
+
 Prototype & Scaling Deployment/ Engineering Architecture 
 
 Step 1-5 
@@ -49,25 +51,27 @@ Product-focused 30% 20% 50% You might spend extra time on developing the appUI/U
     4. Post your idea (including a title and description) to your student community to receive peer feedback.
 
     KMeans Classification Model with FastAPI
-*Disclaimer - These processes were assisted by ChatGPT, and will reflect in screen captures.
+    
+# *Disclaimer - These processes were assisted by ChatGPT, and will reflect in screen captures.
 
 This repository contains code for training a KMeans classification model and serving it via a FastAPI-based REST API. The API allows users to send input features and receive cluster predictions.
 
-Table of Contents
-Overview
-Repository Structure
-Classification : A Through Look Inside
-Prerequisites
-Installation
-Training the KMeans Model
-Running the FastAPI Server
-API Endpoints
-Maintenance
-Contributing
-License
+# Table of Contents
+1. Overview
+2. Repository Structure
+3. Classification : A Through Look Inside
+4. Prerequisites
+5. Installation
+6. Training the KMeans Model
+7. Running the FastAPI Server
+8. API Endpoints
+9. Maintenance
+10. Contributing
+11. License
+12. Acknowledgements
 
+# Overview
 
-Overview
 This project demonstrates how to:
 Train a KMeans clustering model using scikit-learn.
 Save the trained model using joblib.
@@ -75,11 +79,12 @@ Serve the model via a FastAPI REST API.
 Make predictions by sending input features to the API.
 
 
-Classification: A Through Look Inside
+# Classification: A Through Look Inside
 Classification models are a fundamental part of machine learning, used to categorize data into predefined classes or clusters. Below is a breakdown of different classification models, followed by a detailed explanation of KMeans clustering, its methodology, and advantages.
 
-Types of Classification Models
-1. Supervised Classification Models
+# Types of Classification Models
+
+# 1. Supervised Classification Models
 These models require labeled data (input features and corresponding output labels) to learn the relationship between inputs and outputs.
 a. Logistic Regression
 Description: A linear model used for binary or multi-class classification.
@@ -112,7 +117,7 @@ Advantages:
 Highly flexible and powerful.
 Can model non-linear relationships.
 
-2. Unsupervised Classification Models
+# 2. Unsupervised Classification Models
 These models do not require labeled data and are used to find patterns or groupings in data.
 a. KMeans Clustering
 Description: A clustering algorithm that partitions data into k clusters.
@@ -133,22 +138,22 @@ Advantages:
 Handles noise and outliers well.
 Does not require specifying the number of clusters.
 
-KMeans Clustering: Methodology and Advantages
-What is KMeans?
+# KMeans Clustering: Methodology and Advantages
+# What is KMeans?
 KMeans is an unsupervised learning algorithm used to partition data into k clusters, where each data point belongs to the cluster with the nearest mean (centroid).
 
-Methodology
+# Methodology
 Initialization:
 Choose the number of clusters (k).
 Randomly initialize k cluster centroids.
-Assignment:
+# Assignment:
 Assign each data point to the nearest centroid based on a distance metric (usually Euclidean distance).
 Update:
 Recalculate the centroids as the mean of all data points assigned to each cluster.
 Iteration:
 Repeat the assignment and update steps until convergence (when centroids no longer change significantly).
 
-Advantages of KMeans
+# Advantages of KMeans
 Simplicity:
 Easy to understand and implement.
 Requires only a few parameters (k and distance metric).
@@ -161,7 +166,7 @@ Useful for exploratory data analysis.
 Versatility:
 Can be applied to a wide range of data types (numerical, categorical with preprocessing).
 
-Limitations of KMeans
+# Limitations of KMeans
 Choice of k:
 Requires the number of clusters (k) to be specified in advance.
 Choosing an inappropriate k can lead to poor results.
@@ -173,12 +178,12 @@ Struggles with irregularly shaped clusters.
 Outliers:
 Sensitive to outliers, which can skew the centroids.
 
-When to Use KMeans
+# When to Use KMeans
 When you have a large dataset and need a quick clustering solution.
 When the data has clear, spherical clusters.
 For exploratory data analysis or as a preprocessing step for other algorithms.
 
-Example Use Cases
+# Example Use Cases
 Customer Segmentation:
 Group customers based on purchasing behavior.
 Image Compression:
@@ -186,7 +191,7 @@ Reduce the number of colors in an image by clustering pixel values.
 Document Clustering:
 Group similar documents together for topic modeling.
 
-Comparison with Other Clustering Algorithms
+# Comparison with Other Clustering Algorithms
 Algorithm
 Strengths
 Weaknesses
@@ -200,22 +205,32 @@ DBSCAN
 Handles noise, no need for k
 Struggles with varying densities
 
+# Now, take a walk into the forest(pun intended)...
 
-
-Now, take a walk into the forest(pun intended)...
-Prerequisites
+# Prerequisites
 Before running the code, ensure you have the following installed:
 Python 3.7 or higher
 pip (Python package manager)
 Installation
 Clone the repository:
 
-       2.  Install the required Python packages:
+# Installation
+Clone the repository:
 
-Training the KMeans Model
+# git clone https://github.com/your-username/kmeans-fastapi.git
+# cd kmeans-fastapi
+
+Install the required Python packages:
+
+# pip install -r requirements.txt
+
+# Training the KMeans Model
 To train the KMeans model:
+
 Ensure your training data is available in the data/ directory (or modify the script to load your data).
 Run the training script:
+
+# python train_model.py
 
 This script will:
 Load the training data.
@@ -226,22 +241,34 @@ To start the FastAPI server:
 Ensure the trained model (kmeans_model.pk1) is in the root directory.
 Run the server:
 
+# python app.py
+
 The server will start at http://127.0.0.1:8000.
 
-*A quick aside to say along this process(at this point in particular) is where I struggled and learned the most. I gained a great deal of knowledge about FastAPI and API keys. Docker images and containers became home. Python and the CMD window became engrained in me. Moving on…
+# *A quick aside to say along this process(at this point in particular) is where I struggled and learned the most. I gained a great deal of knowledge about FastAPI and API keys. Docker images and containers became home. Python and the CMD window became engrained in me. Moving on…
 
-API Endpoints
+# API Endpoints
 1. Root Endpoint
 URL: GET /
 Description: Check if the API is running.
 Response:
 
-2. Prediction Endpoint
+# {
+  # "message": "API is running!"
+# }
+
+3. Prediction Endpoint
 URL: POST /predict/
 Description: Predict the cluster label for given input features.
 Request Body:
 
+# [1, 3, 5, 7]
+
 Response:
+
+# {
+  # "cluster_label": 1
+# }
 
 Maintenance
 Updating the Model
@@ -253,6 +280,8 @@ Check the server logs for errors or issues.
 Dependency Management
 Update requirements.txt if new dependencies are added:
 
+# pip freeze > requirements.txt
+
 Contributing
 Contributions are welcome! Please follow these steps:
 Fork the repository.
@@ -261,7 +290,7 @@ Submit a pull request with a detailed description of your changes.
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Acknowledgments
+# Acknowledgments
 scikit-learn for the KMeans implementation.
 FastAPI for the REST API framework.
 joblib for model serialization.
@@ -270,5 +299,5 @@ Docker for imaging and containerization
 Python for the language coding environments
 And many more “unnecessary” exploratory tools!(Looking at you AWS…)
 
-This README.md provides a clear and structured guide for users to understand, use, and contribute to my repository. I look forward to test the concepts here more. I’ve undertaken building a food website orderflow chatbot from end-to-end and have most of that project completed. See you soon!
+# This README.md provides a clear and structured guide for users to understand, use, and contribute to my repository. I look forward to test the concepts here more. I’ve undertaken building a food website orderflow chatbot from end-to-end and have most of that project completed. See you soon!
 
